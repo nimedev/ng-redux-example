@@ -1,0 +1,6 @@
+<section>
+  <div>{{ count$ | async }}</div>
+  <div>{{ count2$ | async }}</div>
+  <counter-controls (decreaseCounter)="handleDecrease()"
+    (increaseCounter)="handleIncrease()"></counter-controls>
+</section>

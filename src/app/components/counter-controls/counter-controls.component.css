@@ -1,0 +1,11 @@
+/** CounterControls component (counter-controls in the DOM) */
+
+:host {
+  /* Box-model */
+  display: flex;
+
+  .Button ~ .Button {
+    /* Box-model */
+    margin-left: 1rem;
+  }
+}
