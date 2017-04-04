@@ -40,6 +40,7 @@
     "node": ">=6.10 <7.0.0"
   },
   "dependencies": {
+    "@angular-redux/store": "6.1.0",
     "@angular/common": "4.0.1",
     "@angular/core": "4.0.1",
     "@angular/platform-browser": "4.0.1",
@@ -55,7 +56,6 @@
     "zone.js": "0.8.5"
   },
   "devDependencies": {
-    "@angular-redux/store": "6.1.0",
     "@angular/compiler": "4.0.1",
     "@angular/compiler-cli": "4.0.1",
     "@angular/platform-browser-dynamic": "4.0.1",
